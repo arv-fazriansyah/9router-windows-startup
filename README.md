@@ -45,6 +45,16 @@ The installer will interactively prompt you:
 
 ---
 
+## 🗑️ Uninstall
+
+To remove 9router from Windows Startup, run this command in PowerShell:
+
+```powershell
+iex (iwr -useb https://raw.githubusercontent.com/arv-fazriansyah/9router-windows-startup/main/uninstall.ps1).Content
+```
+
+---
+
 ## 📂 Under the Hood
 
 The installer places a lightweight VBScript wrapper (`start-9router.vbs`) into your user Startup folder (`shell:startup`):
